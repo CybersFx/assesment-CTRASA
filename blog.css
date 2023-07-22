@@ -1,0 +1,315 @@
+:root {
+    --dark-blue: #232340;
+    --soft-blue: #5468E7;
+    --light-orange: #FFBA79;
+    --desaturated-blue : #7676B2;
+  }
+
+body {
+    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Lora', serif;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    font-size: 52px;
+    color :var(--dark-blue);
+}
+
+.navbar-brand span {
+    color: #5468E7;
+}
+
+.navbar-nav .nav-link {
+    margin-right: 56px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 150%; /* 24px */
+    text-decoration-line: underline;
+    color :var(--dark-blue);
+    text-shadow: 0px 8px 16px 0px rgba(35, 35, 64, 0.60);
+}
+
+
+.get-access-button {
+    padding: 10px 44px;
+    border-radius: 4px;
+    background: rgba(84, 104, 231, 0.75);
+    color :var(--dark-blue);
+    border: none; 
+    text-decoration-line: none;
+}
+
+section {
+    padding-top: 70px;
+}
+
+.blog h1{
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 64px;
+    color :var(--dark-blue);
+    margin-bottom: 20px;
+}
+
+.text-blog {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23px;
+    color :var(--dark-blue);
+    margin-bottom: 80px;
+}
+
+.blog-card {
+    border-radius: 8px;
+    margin: 0px 20px 40px 0px;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 18px 24px 0px rgba(118, 118, 178, 0.28);
+    height: 530px;
+    position: relative;
+  }
+
+  .blog-card img {
+  width: 100%;
+  border-radius: 8px 8px 0px 0px;
+}
+
+.blog-card h2 {
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: 10px;
+  padding: 20px 20px;
+  color :var(--soft-blue);
+}
+.blog-card a {
+    text-decoration: none;
+}
+
+.blog-card p {
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 10px;
+  padding: 0px 20px;
+  max-height: 900px
+  color :var(--dark-blue);
+}
+
+.author-info {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 0; /* Menempatkan .author-info di posisi paling bawah */
+    left: 0; /* Menempatkan .author-info di posisi paling kiri */
+    right: 0; /* Menempatkan .author-info di posisi paling kanan */
+    padding: 15px; /* Memberikan padding pada .author-info */
+  }
+  
+
+.author-info img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-left: 15px;
+}
+
+.author-info p {
+  font-size: 14px;
+  padding: 0px 20px;
+  color :var(--desaturated-blue);
+}
+
+.btn-next {
+    display: inline-block;
+    padding: 10px 70px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    background: rgba(84, 104, 231, 0.50);
+    font-size: 16px;
+    margin: 100px 0px;
+    text-decoration: none;
+  }
+
+  footer {
+    background-color: var(--dark-blue); /* Warna biru (ubah sesuai kebutuhan) */
+    color: #fff; /* Warna teks putih */
+    
+  }
+  
+  .footer-sec{
+    padding-top: 150px;
+    padding-bottom: 12px;
+    flex-basis: 25%;
+  }
+  footer span {
+    color: var(--soft-blue);
+  }
+  
+  footer h5 {
+    font-weight: 700;
+    font-size: 52px;
+    color: #F5F5F5;
+  }
+  
+  footer h6 {
+    font-weight: 400;
+    font-size: 24px;
+    color: var(--soft-blue);
+  }
+  
+  footer .list-unstyled a {
+    text-decoration: none; /* Hilangkan underline */
+    color: #fff; /* Ubah warna font menjadi putih */
+  }
+  
+  .email-input2 {
+    font-size: 16px; /* Ukuran font 16px */
+    padding: 11px 16px 11px 40px; /* Padding 11px (atas dan bawah) dan 16px (kiri) pada elemen input */
+    width: 100%; /* Lebar input */
+    background-image: url('img/arrow.svg'); /* Ganti dengan URL gambar ikon panah */
+    background-repeat: no-repeat;
+    background-position: right 12px center; /* Mengatur posisi ikon panah di sisi kanan */
+    background-size: 16px; /* Ukuran ikon panah */
+    align-items: center;
+    align-self: stretch;
+    border-radius: 4px;
+    border: 2px solid #D1ECFD;
+    margin-right: 16px;
+  }
+
+.text-blog-post {
+  width: 550px;
+}
+
+.text-blog-post h1 {
+  font-size: 50px;
+  font-weight: 600;
+  color :var(--dark-blue);
+  margin-top : 115px;
+}
+
+.author-info-post {
+  display: flex;
+  align-items: center;
+  padding-left: 370px;
+  margin: 10px 0px 100px;
+
+}
+
+.author-info-post img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.author-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.author-details p {
+  margin: 0;
+}
+
+.img-post {
+  margin-bottom: 70px;
+  width: 100%
+}
+
+.paragraf-blog {
+  width: 664px;
+}
+
+
+
+.author-profile {
+  display: flex;
+  align-items: center;
+  margin: 100px 0px 100px;
+}
+
+.author-profile img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.author-profile-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.written {
+  font-weight: 700;
+  font-size: 16px;
+  color: #C897E4;
+}
+
+.name-author {
+  font-size: 24px;
+  font-weight: 400;
+  color :var(--dark-blue);
+}
+
+.title-author {
+  color: rgba(35, 35, 64, 0.60);
+}
+
+hr.border-bot {
+  border: none;
+  border-bottom: 4px solid #C897E4;
+  margin: 20px 0;
+  width: 55%; /* Sesuaikan lebar yang diinginkan */
+}
+
+.comment {
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--dark-blue);
+  margin: 90px 0px 60px;
+}
+
+.profile-textarea-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; /* Mengatur gambar profile di atas textarea */
+}
+
+.profile {
+  margin-right: 5px; /* Atur margin antara gambar profile dan textarea */
+}
+
+.text-area {
+  flex: 1; /* Menempatkan textarea agar mengisi sisa lebar container */
+  margin-bottom: 100px;
+  border-radius: 4px;
+  border: 2px solid  var(--desaturated-blue);
+  
+}
+
+@media (max-width: 391px) {
+  .btn-next {
+      margin: 35px 0px;
+  }
+  .author-info-post {
+    padding-left: 0px;
+    margin: 10px 0px 50px;
+  }
+  .text-blog-post h1 {
+    margin-top : 50px;
+  }
+}
+
+@media (max-width: 792px) { 
+  .btn-next {
+      margin: 55px 0px;
+  }
+  .author-info-post {
+    padding-left: 70px;
+    margin: 10px 0px 50px;
+  }
+}

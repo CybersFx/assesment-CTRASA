@@ -1,0 +1,442 @@
+:root {
+    --dark-blue: #232340;
+    --soft-blue: #5468E7;
+    --light-orange: #FFBA79;
+    --desaturated-blue : #7676B2;
+  }
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%23FFFFFF' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  
+}
+  
+body {
+    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Lora', serif;
+
+}
+
+section {
+    margin-top: 50px; 
+    margin-bottom: 120px;
+  }
+
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000; 
+    
+}
+
+
+.navbar-brand {
+    font-weight: 700;
+    font-size: 52px;
+    color: #F5F5F5;
+}
+
+.navbar-brand span {
+    color: #5468E7;
+}
+
+.navbar-nav .nav-link {
+    margin-right: 56px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 150%; /* 24px */
+    text-decoration-line: underline;
+    color: #F5F5F5;
+    text-shadow: 0px 8px 16px 0px rgba(35, 35, 64, 0.60);
+}
+
+.get-access-button {
+    padding: 10px 44px;
+    border-radius: 4px;
+    background: rgba(84, 104, 231, 0.75);
+    color: white;
+    border: none; 
+    text-decoration-line: none;
+}
+
+/* Hero Section */
+.hero-content {
+    position: absolute;
+    bottom: 250px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: left;
+    color: #F5F5F5;
+}
+
+.hero-section {
+    background-image: url('img/bg-hero1.png'); /* Ganti dengan URL gambar Anda */
+    background-size: cover;
+    background-position: bottom 50px center 100px;
+    height: 900px; /* Sesuaikan tinggi hero section sesuai keinginan */
+    position: relative;
+    bottom:67px;
+}
+
+.hero-content h1 {
+    font-size: 59px;
+    font-weight: 700;
+    line-height: 64px;
+}
+
+.hero-content p {
+    font-size: 18px; 
+    font-weight: 400;
+    line-height: 27px;
+    margin-bottom: 66px;
+}
+
+.email-input {
+    font-size: 16px; /* Ukuran font 16px */
+    padding: 11px 16px 11px 40px; /* Padding 11px (atas dan bawah) dan 16px (kiri) pada elemen input */
+    width: 300px; /* Lebar input */
+    background-image: url('img/arrow.svg'); /* Ganti dengan URL gambar ikon panah */
+    background-repeat: no-repeat;
+    background-position: right 12px center; /* Mengatur posisi ikon panah di sisi kanan */
+    background-size: 16px; /* Ukuran ikon panah */
+    align-items: center;
+    align-self: stretch;
+    border-radius: 4px;
+    border: 2px solid #D1ECFD;
+    margin-right: 16px;
+}
+
+.btn-2 {
+    padding: 14px 55px; /* Padding 10px (atas dan bawah) dan 44px (kiri dan kanan) pada tombol */
+    font-size: 16px; /* Ukuran font 16px */
+    background: #5468E7;
+    color: #FFF; /* Warna teks putih */
+    border: none; /* Tidak ada border */
+    border-radius: 4px; /* Radius border 4px */
+    cursor: pointer; /* Tambahkan tanda kursor saat diarahkan ke tombol */
+    gap: 8px;
+}
+
+/* MockUp Section */
+.mock {
+    padding: 0;
+  }
+  .mock .content {
+    padding-left: 200px;
+  }
+  
+  .mock .content h1 {
+    font-weight: 700;
+    line-height: 64px;
+    font-size: 59px;
+    color: var(--dark-blue);
+    margin-bottom: 25px;
+
+  }
+  
+  .mock .content p {
+    font-size: 18px; 
+    font-weight: 400;
+    line-height: 27px
+    color: var(--dark-blue);
+    padding-bottom: 50px;
+  }
+  
+  .mock .img {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height: 770px;
+  }
+  
+  .learn-more {
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--soft-blue);
+  }
+
+  .learn-more img {
+    margin-left: 8px; 
+  }
+
+  /* info section */
+  .info {
+    padding: 0;
+  }
+  
+  
+  .info .content h1 {
+    font-weight: 700;
+    line-height: 64px;
+    font-size: 50px;
+    color: var(--dark-blue);
+    margin-bottom: 25px;
+
+  }
+  
+  .info .content p {
+    font-size: 18px; 
+    font-weight: 400;
+    line-height: 27px
+    color: var(--dark-blue);
+    padding-bottom: 50px;
+  }
+  
+.image-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.inner-image {
+  position: absolute;
+  top: 5%; 
+  left: 55%; 
+  width: 40%; 
+  height: auto;
+  z-index: 1;
+}
+
+.image-wrapper img {
+  max-width: 100%; 
+  height: auto; 
+}
+
+.inner-image2 {
+  position: absolute;
+  top: 36%; 
+  left: 55%;
+  width: 40%; 
+  height: auto;
+  z-index: 1; 
+}
+
+.inner-image2a {
+  position: absolute;
+  top: 55%; /* Sesuaikan nilai top sesuai dengan posisi vertikal gambar tambahan di dalam gambar utama */
+  left: 55%; /* Sesuaikan nilai left sesuai dengan posisi horizontal gambar tambahan di dalam gambar utama */
+  width: 40%; /* Sesuaikan ukuran gambar tambahan sesuai kebutuhan */
+  height: auto;
+  z-index: 1; /* Jika diperlukan, atur nilai z-index agar gambar tambahan tampil di atas gambar utama */
+}
+
+.inner-image3 {
+  position: absolute;
+  top: 35%; /* Sesuaikan nilai top sesuai dengan posisi vertikal gambar tambahan di dalam gambar utama */
+  left: 5%; /* Sesuaikan nilai left sesuai dengan posisi horizontal gambar tambahan di dalam gambar utama */
+  width: 40%; /* Sesuaikan ukuran gambar tambahan sesuai kebutuhan */
+  height: auto;
+  z-index: 1; /* Jika diperlukan, atur nilai z-index agar gambar tambahan tampil di atas gambar utama */
+}
+
+.inner-image3a {
+  position: absolute;
+  top: 75%; /* Sesuaikan nilai top sesuai dengan posisi vertikal gambar tambahan di dalam gambar utama */
+  left: 5%; /* Sesuaikan nilai left sesuai dengan posisi horizontal gambar tambahan di dalam gambar utama */
+  width: 40%; /* Sesuaikan ukuran gambar tambahan sesuai kebutuhan */
+  height: auto;
+  z-index: 1; /* Jika diperlukan, atur nilai z-index agar gambar tambahan tampil di atas gambar utama */
+}
+
+/* Review */
+.text-review {
+  font-size: 59px;
+  font-weight: 700;
+  line-height: 64px;
+  color: var(--dark-blue);
+}
+
+.review-section {
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+  position: relative;
+}
+
+.rating {
+  color: var(--light-orange);
+  font-size: 16px; /* Sesuaikan ukuran bintang sesuai kebutuhan */
+  padding-bottom: 16px;
+}
+
+.rating i {
+  margin: 0 2px; /* Jarak antara ikon bintang */
+}
+
+.review-card {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 16px 24px 0px rgba(118, 118, 178, 0.24);
+  max-width: 300px;
+  margin: 0 16px;
+  height: fit-content;
+  transition: all 0.3s ease;
+  position: relative;
+}
+.review-section .row {
+  display: flex; /* Use flexbox for horizontal layout */
+  flex-wrap: nowrap; /* Prevent review cards from wrapping */
+}
+
+
+
+.customer-info {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.customer-info img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.customer-details h4 {
+  margin-bottom: 5px;
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.customer-details p {
+  font-size: 14px;
+  color: var(--desaturated-blue);
+}
+
+.svg-arrow{
+  margin-bottom: 150px;
+}
+
+footer {
+  background-color: var(--dark-blue); /* Warna biru (ubah sesuai kebutuhan) */
+  color: #fff; /* Warna teks putih */
+  
+}
+
+.footer-sec{
+  padding-top: 150px;
+  padding-bottom: 12px;
+  flex-basis: 25%;
+}
+footer span {
+  color: var(--soft-blue);
+}
+
+footer h5 {
+  font-weight: 700;
+  font-size: 52px;
+  color: #F5F5F5;
+}
+
+footer h6 {
+  font-weight: 400;
+  font-size: 24px;
+  color: var(--soft-blue);
+}
+
+footer .list-unstyled a {
+  text-decoration: none; /* Hilangkan underline */
+  color: #fff; /* Ubah warna font menjadi putih */
+}
+
+.email-input2 {
+  font-size: 16px; /* Ukuran font 16px */
+  padding: 11px 16px 11px 40px; /* Padding 11px (atas dan bawah) dan 16px (kiri) pada elemen input */
+  width: 100%; /* Lebar input */
+  background-image: url('img/arrow.svg'); /* Ganti dengan URL gambar ikon panah */
+  background-repeat: no-repeat;
+  background-position: right 12px center; /* Mengatur posisi ikon panah di sisi kanan */
+  background-size: 16px; /* Ukuran ikon panah */
+  align-items: center;
+  align-self: stretch;
+  border-radius: 4px;
+  border: 2px solid #D1ECFD;
+  margin-right: 16px;
+}
+
+.footer-text {
+  font-size: 14px;
+  margin-top :160px;
+}
+
+@media (max-width: 792px) {
+  .hero-section {
+    background-size: cover;
+    background-position: 75% 5%;
+    height: 900px; /* Sesuaikan tinggi hero section sesuai keinginan */
+    position: relative;
+    bottom:67px;
+  }
+  .mock .content {
+    padding-left: 0px;
+    padding: 0px 50px;
+  }
+  .mock .content h1 {
+    font-size: 50px;
+    padding-top: 55px;
+  }
+  .email-input2 {
+    width: 350px;
+  }
+}
+
+@media (max-width: 391px) {
+  .hero-content {
+    position: absolute;
+    bottom: 100px;
+    transform: translateX(-50%);
+    text-align: left;
+    color: #F5F5F5;
+  }
+
+  .email-input {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  .hero-content h1 {
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 64px;
+  }
+
+  .mock .content {
+    padding-left: 0px;
+    padding: 0px 10px;
+  }
+
+  .mock .content h1 {
+    font-size: 34px;
+    padding-top: 50px;
+  }
+
+  .hero-section {
+    background-position:80% 85%;
+    height: 750px; /* Sesuaikan tinggi hero section sesuai keinginan */
+    position: relative;
+    bottom:5px;
+  }
+
+  .mock .img {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height: 300px;
+  }
+  .info {
+    padding: 0px 10px;
+  }
+  .info .content h1 {
+    padding: 30px 0px 20px;
+    font-size: 34px;
+  }
+  .text-review {
+    font-size: 34px;
+    padding : 0px 10px;
+  }
+
+  footer {
+    padding: 0px 10px;
+  }
+
+}
